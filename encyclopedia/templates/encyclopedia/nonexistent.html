@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Nonexistent entry
+{% endblock %}
+
+{% block body %}
+<p>
+    <h1>
+        <i><strike>{{ title }}</strike></i>
+    </h1>
+</p>
+
+<p>
+    Entry does not exist.
+</p>
+{% endblock %}
